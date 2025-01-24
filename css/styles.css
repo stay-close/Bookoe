@@ -1,3 +1,13 @@
+:root{
+  --clr_primary: #6C5DD3;
+  --clr_orange: #FF754C;
+  --clr_white: #fff;
+  --clr_black: #000;
+  --clr_heading: #11142D;
+
+
+}
+
 h1,
 h2,
 h3,
@@ -5,7 +15,12 @@ h4,
 h5,
 h6 {
   font-family: "Cairo", serif;
+  color: var(--clr_heading);
 }
 p {
   font-family: "Open Sans", serif;
+}
+.section_heading h2{
+font-size: 50px;
+font-weight: 700;
 }
