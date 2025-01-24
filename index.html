@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Bookoe ||Best Online Book Store</title>
+    <title>Bookoe || Best Online Book Store</title>
 
     <!-- Bootstrap cdn link -->
     <link
@@ -15,9 +15,6 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- Reset CSS link -->
-    <link rel="stylesheet" href="./css/reset.css" />
-
     <!-- FontAwesome CSS link -->
     <link
       rel="stylesheet"
@@ -27,6 +24,8 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Reset CSS link -->
+    <link rel="stylesheet" href="./css/reset.css" />
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="./css/styles.css" />
 
@@ -36,9 +35,13 @@
   <body>
     <!-- Header Area Start -->
     <header id="header_area">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">
+            <picture>
+              <img src="./images/logo.png" alt="Logo">
+            </picture>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -50,43 +53,51 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menus
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div
+              class="main_menu d-flex justify-content-end w-75 flex-column flex-lg-row"
+            >
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle d_menu px-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Menus
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Menu 01</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 02</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 03</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 04</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 05</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 06</a></li>
+                    <li><a class="dropdown-item" href="#">Menu 07</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex w-100" role="search">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search over 30 million book titles"
+                  aria-label="Search"
+                />
+                <a class="submit_btn" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Menu 01</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 02</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 03</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 04</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 05</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 06</a></li>
-                  <li><a class="dropdown-item" href="#">Menu 07</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex w-50 me-5" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search over 30 million book titles"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
+              </form>
+            </div>
+            <!--/main_menu-->
             <div class="signin_signup">
-              <button type="button" class="btn">Log In</button>
-              <button type="button" class="btn">Sign Up</button>
+              <a href='#' class="login">Log In</a>
+              <a href='#' class="signup"> <i class="fa-regular fa-user me-2"></i> Sign Up</a>
             </div>
           </div>
           <!--/navbar-collapse-->

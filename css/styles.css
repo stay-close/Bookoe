@@ -1,11 +1,9 @@
-:root{
-  --clr_primary: #6C5DD3;
-  --clr_orange: #FF754C;
+:root {
+  --clr_primary: #6c5dd3;
+  --clr_orange: #ff754c;
   --clr_white: #fff;
   --clr_black: #000;
-  --clr_heading: #11142D;
-
-
+  --clr_heading: #11142d;
 }
 
 h1,
@@ -20,7 +18,51 @@ h6 {
 p {
   font-family: "Open Sans", serif;
 }
-.section_heading h2{
-font-size: 50px;
-font-weight: 700;
+.section_heading h2 {
+  font-size: 50px;
+  font-weight: 700;
 }
+
+/* ==== Header Area ==== */
+
+#header_area{
+ 
+  box-shadow: 0 1px 10px #E1E1E1;
+}
+#header_area .main_menu {
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#header_area form input {
+  border-radius: 0;
+  outline: none;
+  border-left: 2px solid #e1e1e1;
+  border-right: 2px solid #e1e1e1;
+  border-top: none;
+  border-bottom: none;
+}
+#header_area form input::placeholder {
+  color: #aaaaaa;
+}
+#header_area form a,
+#header_area .signin_signup a {
+  background-color: #f0eeff;
+  color: var(--clr_primary);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+#header_area form a {
+  background: none;
+  padding: 10px 20px;
+}
+#header_area .signin_signup a:hover{
+  background:var(--clr_primary);
+  color: var(--clr_white);
+  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+}
+
+/* ==== Header Area ==== */
