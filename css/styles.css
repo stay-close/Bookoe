@@ -147,12 +147,15 @@ span.circular_bg:nth-child(4) {
 }
 .banner_best_seller h2 {
   font-size: 48px;
+  color: var(--clr_white);
 }
 .single_seller h3 {
   font-size: 20px;
+  color: var(--clr_white);
 }
 .single_seller p {
   font-size: 12px;
+  color: var(--clr_white);
 }
 .single_seller a {
   background: var(--clr_white);
