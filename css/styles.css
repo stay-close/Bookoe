@@ -14,6 +14,7 @@ h5,
 h6 {
   font-family: "Cairo", serif;
   color: var(--clr_heading);
+  font-weight: 700;
 }
 p {
   font-family: "Open Sans", serif;
@@ -25,9 +26,8 @@ p {
 
 /* ==== Header Area ==== */
 
-#header_area{
- 
-  box-shadow: 0 1px 10px #E1E1E1;
+#header_area {
+  box-shadow: 0 1px 10px #e1e1e1;
 }
 #header_area .main_menu {
   border: 2px solid #e1e1e1;
@@ -59,14 +59,13 @@ p {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover{
-  background:var(--clr_primary);
+#header_area .signin_signup a:hover {
+  background: var(--clr_primary);
   color: var(--clr_white);
-  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
-
 
 /* ==== Banner Area ==== */
 .banner_slider {
@@ -165,3 +164,40 @@ span.circular_bg:nth-child(4) {
   color: var(--clr_heading);
 }
 /* ==== Banner Area ==== */
+
+/* ==== Recomended Books Area ==== */
+
+#recomended_books_area .heading h2 {
+  font-size: 36px;
+}
+#recomended_books_area .heading p {
+  font-size: 14px;
+  color: var(--clr_heading);
+  padding: 20px 0 30px;
+  max-width: 90%;
+}
+.popular_books,
+.recomended_books {
+  border-radius: 14px;
+  padding: 50px 60px 40px;
+}
+
+.recomended_books{
+  background: #f5dcc8;
+}
+.popular_books{
+  background: #D7EBFF;
+}
+.books_slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.single_book picture {
+  max-width: 140px;
+  max-height: 195px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ==== Recomended Books Area ==== */
