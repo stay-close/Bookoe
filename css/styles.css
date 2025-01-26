@@ -25,9 +25,8 @@ p {
 
 /* ==== Header Area ==== */
 
-#header_area{
- 
-  box-shadow: 0 1px 10px #E1E1E1;
+#header_area {
+  box-shadow: 0 1px 10px #e1e1e1;
 }
 #header_area .main_menu {
   border: 2px solid #e1e1e1;
@@ -59,14 +58,13 @@ p {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover{
-  background:var(--clr_primary);
+#header_area .signin_signup a:hover {
+  background: var(--clr_primary);
   color: var(--clr_white);
-  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
-
 
 /* ==== Banner Area ==== */
 .banner_slider {
@@ -165,3 +163,61 @@ span.circular_bg:nth-child(4) {
   color: var(--clr_heading);
 }
 /* ==== Banner Area ==== */
+
+/* ==== Flash Sale Books Area ==== */
+#flash_sale_area .section_heading p {
+  margin: 20px auto;
+  max-width: 55%;
+}
+.time_counter ul {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.time_counter ul li h3 {
+  font-size: 50px;
+  color: #ff754c;
+  font-weight: 700;
+}
+.time_counter ul li p {
+  font-size: 14px;
+  color: var(--clr_heading);
+  line-height: 28px;
+}
+.flash_sale_books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.flash_sale_books .single_sale picture {
+  max-width: 230px;
+  max-height: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.single_sale .details h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.single_sale .details p {
+  font-size: 14px;
+  margin: 5px 0 15px;
+  color: var(--clr_primary);
+}
+.single_sale .details h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--clr_primary);
+}
+.single_sale .details h4 span {
+  font-size: 20px;
+  color: #aaaaaa;
+  font-weight: 500;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+/* ==== Flash Sale Books Area ==== */
