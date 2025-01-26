@@ -25,9 +25,8 @@ p {
 
 /* ==== Header Area ==== */
 
-#header_area{
- 
-  box-shadow: 0 1px 10px #E1E1E1;
+#header_area {
+  box-shadow: 0 1px 10px #e1e1e1;
 }
 #header_area .main_menu {
   border: 2px solid #e1e1e1;
@@ -59,14 +58,13 @@ p {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover{
-  background:var(--clr_primary);
+#header_area .signin_signup a:hover {
+  background: var(--clr_primary);
   color: var(--clr_white);
-  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
-
 
 /* ==== Banner Area ==== */
 .banner_slider {
@@ -165,3 +163,105 @@ span.circular_bg:nth-child(4) {
   color: var(--clr_heading);
 }
 /* ==== Banner Area ==== */
+
+/* ==== Featured Books Area ==== */
+#featured_books_area {
+  background: #f2f0fe;
+}
+.featured_left {
+  padding-right: 50px;
+}
+.featured_books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background: var(--clr_white);
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
+}
+.book_name {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+ul.author {
+  display: flex;
+  gap: 50px;
+}
+.content picture {
+  max-width: 290px;
+  max-height: 410px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.featured_books picture {
+  max-height: 335px;
+  max-width: 240px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.featured_books picture img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+.icon i {
+  font-size: 40px;
+}
+.name h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.name p {
+  color: var(--clr_primary);
+}
+.text h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 20px 0 15px;
+}
+.text p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.author li p {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.author li h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.price_buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price_buy li h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.price_buy li h3 span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+.price_buy li a {
+  padding: 10px 15px;
+  background: var(--clr_primary);
+  border: 2px solid var(--clr_primary);
+  color: var(--clr_white);
+  border-radius: 8px;
+}
+.price_buy li a:hover {
+  color: var(--clr_primary);
+  background: transparent;
+}
+/* ==== Featured Books Area ==== */
