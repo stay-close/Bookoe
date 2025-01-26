@@ -170,6 +170,9 @@ span.circular_bg:nth-child(4) {
   max-width: 50%;
   margin: 40px auto 50px;
 }
+.single_offer{
+  border-radius: 14px;
+}
 .single_offer .book_img picture {
   max-width: 510px;
   max-height: 300px;
@@ -206,6 +209,11 @@ span.circular_bg:nth-child(4) {
   font-weight: 500;
   margin: 20px 0;
 }
+.add_to_cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .add_to_cart a {
   padding: 12px 25px;
   border-radius: 14px;
@@ -215,17 +223,20 @@ span.circular_bg:nth-child(4) {
   font-weight: 700;
   border: 2px solid var(--clr_primary);
 }
-.add_to_cart a:nth-child(2) {
+.add_to_cart p {
   font-size: 28px;
   font-weight: 700;
   color: var(--clr_heading);
   background: transparent;
   border: none;
 }
-.add_to_cart a:nth-child(2) span {
+.add_to_cart p span {
   font-size: 20px;
   font-weight: 500;
   color: #aaaaaa;
   text-decoration: line-through;
+}
+.single_offer:hover {
+  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
 }
 /* ==== Special Offer Area ==== */
