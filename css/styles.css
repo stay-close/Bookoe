@@ -25,9 +25,8 @@ p {
 
 /* ==== Header Area ==== */
 
-#header_area{
- 
-  box-shadow: 0 1px 10px #E1E1E1;
+#header_area {
+  box-shadow: 0 1px 10px #e1e1e1;
 }
 #header_area .main_menu {
   border: 2px solid #e1e1e1;
@@ -59,14 +58,13 @@ p {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover{
-  background:var(--clr_primary);
+#header_area .signin_signup a:hover {
+  background: var(--clr_primary);
   color: var(--clr_white);
-  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
-
 
 /* ==== Banner Area ==== */
 .banner_slider {
@@ -165,3 +163,46 @@ span.circular_bg:nth-child(4) {
   color: var(--clr_heading);
 }
 /* ==== Banner Area ==== */
+
+/* ==== Subscribe Area ==== */
+.subscribe_content {
+  background: url("../images/subs_bg.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 366px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.subscribe_content h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 55px;
+}
+.subs_input {
+  display: flex;
+}
+.subs_input input {
+  padding: 15px 20px;
+  background: rgb(226 226 226 / 20%);
+  width: 485px;
+  border-radius: 10px 0 0 10px;
+  color: #e2e2e2;
+}
+.subs_input input::placeholder {
+  color: #e2e2e2;
+}
+.subs_input a.subs {
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #0000;
+  border-radius: 0 10px 10px 0;
+  color: var(--clr_heading);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+/* ==== Subscribe Area ==== */
