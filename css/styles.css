@@ -25,9 +25,8 @@ p {
 
 /* ==== Header Area ==== */
 
-#header_area{
- 
-  box-shadow: 0 1px 10px #E1E1E1;
+#header_area {
+  box-shadow: 0 1px 10px #e1e1e1;
 }
 #header_area .main_menu {
   border: 2px solid #e1e1e1;
@@ -59,14 +58,13 @@ p {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover{
-  background:var(--clr_primary);
+#header_area .signin_signup a:hover {
+  background: var(--clr_primary);
   color: var(--clr_white);
-  box-shadow: 0 25px 33px rgba(108, 93, 211,0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
-
 
 /* ==== Banner Area ==== */
 .banner_slider {
@@ -165,3 +163,31 @@ span.circular_bg:nth-child(4) {
   color: var(--clr_heading);
 }
 /* ==== Banner Area ==== */
+
+/* ==== Counter Area ==== */
+
+ul.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul.counter li {
+  text-align: center;
+}
+ul.counter li .icon i {
+  font-size: 50px;
+  color: var(--clr_primary);
+  margin-bottom: 40px;
+}
+ul.counter li h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+ul.counter li p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #aaa;
+  margin-top: 10px;
+}
+/* ==== Counter Area ==== */
