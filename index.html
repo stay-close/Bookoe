@@ -277,7 +277,7 @@
     <!-- Footer Area Start -->
     <footer id="footer_area" class="my-5">
       <div class="container">
-        <div class="row">
+        <div class="row mb-5">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="footer_left">
               <div class="footer_logo">
@@ -293,38 +293,56 @@
               </div>
               <h4>Follow Us</h4>
               <ul class="footer_social_links">
-                <li><i class="fa-brands fa-facebook-f"></i></li>
-                <li><i class="fa-brands fa-youtube"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
+                <li style="--clr: #1e33e5; --bg: rgba(30, 51, 229, 0.2)">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li style="--clr: #ff2b2b; --bg: rgba(255, 43, 43, 0.2)">
+                  <i class="fa-brands fa-youtube"></i>
+                </li>
+                <li style="--clr: #3cb5db; --bg: rgba(60, 181, 219, 0.2)">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li style="--clr: #286fa3; --bg: rgba(40, 111, 163, 0.2)">
+                  <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li style="--clr: #fd3e77; --bg: rgba(253, 62, 119, 0.2)">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="footer_links">
               <h4>Books Categories</h4>
-              <ul class="links d-flex flex-wrap">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Law</a></li>
-                <li><a href="#">Advanture</a></li>
-                <li><a href="#">Mystery</a></li>
-                <li><a href="#">Comedy</a></li>
-                <li><a href="#">Professional</a></li>
-                <li><a href="#">Crime</a></li>
-                <li><a href="#">Romance</a></li>
-                <li><a href="#">Drama</a></li>
-                <li><a href="#">TV Series</a></li>
-                <li><a href="#">Fantasy</a></li>
-                <li><a href="#">Horror</a></li>
-                <li><a href="#">View more</a></li>
-              </ul>
+              <div class="double_sided_links">
+                <ul class="links">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Advanture</a></li>
+                  <li><a href="#">Comedy</a></li>
+                  <li><a href="#">Crime</a></li>
+                  <li><a href="#">Drama</a></li>
+                  <li><a href="#">Fantasy</a></li>
+                  <li><a href="#">Horror</a></li>
+                </ul>
+                <ul class="links">
+                  <li><a href="#">Law</a></li>
+                  <li><a href="#">Mystery</a></li>
+                  <li><a href="#">Professional</a></li>
+                  <li><a href="#">Romance</a></li>
+                  <li><a href="#">TV Series</a></li>
+                  <li>
+                    <a href="#" class="view_more"
+                      >View more <i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-12">
             <div class="footer_links">
               <h4>Quick Links</h4>
-             <ul class="links">
+              <ul class="links">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Products</a></li>
@@ -338,26 +356,49 @@
           <div class="col-lg-3 col-md-6 col-12">
             <div class="footer_address">
               <h4>Our Store</h4>
-             <ul class="links">
+              <ul class="links">
                 <li>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.429559962232!2d90.36063007484744!3d23.805044186677254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c127f700d01b%3A0x46d3540dfa2672a7!2sMirpur-2%20Bus%20Stand!5e1!3m2!1sen!2sbd!4v1737991370520!5m2!1sen!2sbd" width="375" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.429559962232!2d90.36063007484744!3d23.805044186677254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c127f700d01b%3A0x46d3540dfa2672a7!2sMirpur-2%20Bus%20Stand!5e1!3m2!1sen!2sbd!4v1737991370520!5m2!1sen!2sbd"
+                    width="375"
+                    height="120"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </li>
-                <li><i class="fa-solid fa-location-dot me-2"></i> 832  Thompson Drive, San Fransisco
-                  CA 94107, United States</li>
+                <li>
+                  <i class="fa-solid fa-location-dot me-2"></i> 832 Thompson
+                  Drive, San Fransisco CA 94107, United States
+                </li>
                 <li><i class="fa-solid fa-phone me-2"></i>+123 345123 556</li>
-                <li><i class="fa-solid fa-envelope me-2"></i>support@bookoe.id</li>
+                <li>
+                  <i class="fa-solid fa-envelope me-2"></i>support@bookoe.id
+                </li>
               </ul>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="footer_copyright d-flex justify-content-between align-items-center py-4">
-              <p>Bookoe Book Store Website  - &copy; 2020 All Rights Reserved</p>
-              <p>Made with <i class="fa-solid fa-heart"></i> by StayClose</p>
             </div>
           </div>
         </div>
       </div>
       <!--/container-->
+
+      <div class="footer_copyright py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="copyright_content d-flex justify-content-between align-items-center"
+              >
+                <p>
+                  Bookoe Book Store Website - &copy; 2020 All Rights Reserved
+                </p>
+                <p>Made with <i class="fa-solid fa-heart"></i> by StayClose</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Footer Area End -->
 
