@@ -24,7 +24,12 @@ p {
   font-size: 50px;
   font-weight: 700;
 }
-
+picture {
+  overflow: hidden;
+}
+picture:hover img {
+  transform: scale(1.2) rotate(5deg);
+}
 /* ==== Header Area ==== */
 
 #header_area {
@@ -169,7 +174,7 @@ span.circular_bg:nth-child(4) {
 /* ==== Our Servie Area ==== */
 .single_service {
   display: flex;
-gap: 10px;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
 }
@@ -213,11 +218,11 @@ gap: 10px;
   padding: 50px 60px 40px;
 }
 
-.recomended_books{
+.recomended_books {
   background: #f5dcc8;
 }
-.popular_books{
-  background: #D7EBFF;
+.popular_books {
+  background: #d7ebff;
 }
 .books_slider {
   display: flex;
@@ -239,7 +244,7 @@ gap: 10px;
   max-width: 50%;
   margin: 40px auto 50px;
 }
-.single_offer{
+.single_offer {
   border-radius: 14px;
 }
 .single_offer .book_img picture {
