@@ -518,3 +518,84 @@ ul.author {
   background: transparent;
 }
 /* ==== Featured Books Area ==== */
+
+/* ==== Testimonial Area ==== */
+#testimonials_area .section_heading p {
+  margin: 20px auto;
+  max-width: 50%;
+}
+.user_photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_photo li {
+  margin-left: -25px;
+}
+.user_photo li:nth-child(1) {
+  margin-left: 0px;
+}
+.user_photo li picture {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #fff;
+  box-shadow: 2px 2px 10px var(--clr_primary);
+}
+.commenter li picture img,
+.user_photo li picture img {
+  background: #aaaaaa;
+  border-radius: 50%;
+}
+.user_photo li div {
+  color: var(--clr_white);
+  background: var(--clr_primary);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-weight: 700;
+}
+.comment {
+  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
+  padding: 30px;
+  border-radius: 14px;
+}
+.comment h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.commenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.commenter li picture {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  padding: 2px;
+  background: #fff;
+  box-shadow: 2px 2px 10px var(--clr_primary);
+}
+.commenter li:first-child {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.commenter:last-child i {
+  color: #ff754c;
+}
+.commenter li .name h4 {
+  color: #3d3d3d;
+  font-size: 18px;
+  font-family: "Open Sans", serif;
+}
+.commenter li .name p {
+  font-size: 14px;
+  color: #3d3d3d;
+}
+/* ==== Testimonial Area ==== */
