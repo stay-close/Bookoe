@@ -62,11 +62,6 @@ p {
 }
 #header_area .signin_signup a:hover {
   background: var(--clr_primary);
-}
-#header_area .signin_signup a:hover {
-  background: var(--clr_primary);
-#header_area .signin_signup a:hover {
-  background: var(--clr_primary);
   color: var(--clr_white);
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
