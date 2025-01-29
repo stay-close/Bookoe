@@ -599,3 +599,68 @@ ul.author {
   color: #3d3d3d;
 }
 /* ==== Testimonial Area ==== */
+
+/* ==== Latest News Area ==== */
+#latest_news_area .section_heading p {
+  max-width: 50%;
+}
+.show_more_btn a {
+  padding: 15px 25px;
+  color: #fff;
+  background: var(--clr_primary);
+  border: 2px solid var(--clr_primary);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 14px;
+}
+.show_more_btn a:hover {
+  background: transparent;
+  color: var(--clr_primary);
+}
+
+.single_news > picture {
+  width: 370px;
+  height: 210px;
+  border-radius: 10px;
+  padding: 5px;
+  background: #aaa;
+  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
+}
+.single_news > picture img {
+  border-radius: 10px;
+  height: 100%;
+}
+.single_news h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 15px;
+}
+.single_news p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.single_news a {
+  color: var(--clr_primary);
+}
+.news_by {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.news_by picture {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  padding: 2px;
+  background: #aaa;
+}
+.news_by pictrue img {
+  border-radius: 50%;
+}
+.reporter h4 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+/* ==== Latest News Area ==== */
