@@ -664,3 +664,31 @@ ul.author {
   font-family: "Poppins", serif;
 }
 /* ==== Latest News Area ==== */
+
+/* ==== Counter Area ==== */
+
+ul.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul.counter li {
+  text-align: center;
+}
+ul.counter li .icon i {
+  font-size: 50px;
+  color: var(--clr_primary);
+  margin-bottom: 40px;
+}
+ul.counter li h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+ul.counter li p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #aaa;
+  margin-top: 10px;
+}
+/* ==== Counter Area ==== */
