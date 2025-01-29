@@ -66,6 +66,7 @@ p {
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
+  box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
 
 /* ==== Header Area ==== */
@@ -168,147 +169,60 @@ span.circular_bg:nth-child(4) {
 }
 /* ==== Banner Area ==== */
 
-/* ==== Recomended Books Area ==== */
-
-#recomended_books_area .heading h2 {
-  font-size: 36px;
+/* ==== Flash Sale Books Area ==== */
+#flash_sale_area .section_heading p {
+  margin: 20px auto;
+  max-width: 55%;
 }
-#recomended_books_area .heading p {
-  font-size: 14px;
-  color: var(--clr_heading);
-  padding: 20px 0 30px;
-  max-width: 90%;
-}
-.popular_books,
-.recomended_books {
-  border-radius: 14px;
-  padding: 50px 60px 40px;
-}
-
-.recomended_books {
-  background: #f5dcc8;
-}
-.popular_books {
-  background: #d7ebff;
-}
-.books_slider {
+.time_counter ul {
   display: flex;
-  justify-content: space-between;
-  gap: 15px;
-}
-.single_book picture {
-  max-width: 140px;
-  max-height: 195px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-/* ==== Recomended Books Area ==== */
-
-/* ==== Our Servie Area ==== */
-.single_service {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-between;
-}
-.single_service .service_icon {
-  border-radius: 8px;
-  display: flex;
+  gap: 25px;
   justify-content: center;
   align-items: center;
-  background: #f0eeff;
-  padding: 15px;
 }
-.single_service .service_icon i {
-  font-size: 20px;
-  color: var(--clr_primary);
+.time_counter ul li h3 {
+  font-size: 50px;
+  color: #ff754c;
+  font-weight: 700;
 }
-.single_service .service_details h4 {
-  font-size: 20px;
-  line-height: 24px;
-}
-.single_service .service_details p {
+.time_counter ul li p {
   font-size: 14px;
-  color: #aaaaaa;
-  padding: 10px 0;
+  color: var(--clr_heading);
+  line-height: 28px;
 }
-
-/* ==== Our Servie Area ==== */
-
-/* ==== Special Offer Area ==== */
-
-#special_offers_area .section_heading p {
-  max-width: 50%;
-  margin: 40px auto 50px;
+.flash_sale_books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.single_offer{
-  border-radius: 14px;
-}
-.single_offer .book_img picture {
-  max-width: 510px;
-  max-height: 300px;
-  border-radius: 14px;
+.flash_sale_books .single_sale picture {
+  max-width: 230px;
+  max-height: 320px;
+  border-radius: 20px;
   overflow: hidden;
 }
-.offer_details {
-  padding: 30px 20px;
-}
-.offer_details h3 {
-  font-size: 24px;
+.single_sale .details h3 {
+  font-size: 20px;
   font-weight: 700;
+  margin-top: 20px;
 }
-.offer_details ul {
-  display: flex;
-  gap: 10px;
-  margin: 15px 0;
-}
-.offer_details ul li {
-  padding: 5px 10px;
-  background: #f0eeff;
+.single_sale .details p {
+  font-size: 14px;
+  margin: 5px 0 15px;
   color: var(--clr_primary);
-  border-radius: 14px;
-  font-size: 12px;
-  font-family: "Open Sans", serif;
-  font-weight: 500;
 }
-.offer_details p {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.8);
-}
-.offer_details h5 {
-  font-size: 16px;
-  font-weight: 500;
-  margin: 20px 0;
-}
-.add_to_cart {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.add_to_cart a {
-  padding: 12px 25px;
-  border-radius: 14px;
-  background: var(--clr_primary);
-  color: var(--clr_white);
-  font-size: 18px;
-  font-weight: 700;
-  border: 2px solid var(--clr_primary);
-}
-.add_to_cart p {
+.single_sale .details h4 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--clr_heading);
-  background: transparent;
-  border: none;
+  color: var(--clr_primary);
 }
-.add_to_cart p span {
+.single_sale .details h4 span {
   font-size: 20px;
-  font-weight: 500;
   color: #aaaaaa;
+  font-weight: 500;
   text-decoration: line-through;
+  margin-left: 10px;
 }
-.single_offer:hover {
-  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
-}
-/* ==== Special Offer Area ==== */
+/* ==== Flash Sale Books Area ==== */
