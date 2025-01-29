@@ -29,6 +29,7 @@ p {
 
 #header_area {
   box-shadow: 0 1px 10px #e1e1e1;
+}
 #header_area {
   box-shadow: 0 1px 10px #e1e1e1;
 }
@@ -64,6 +65,7 @@ p {
 }
 #header_area .signin_signup a:hover {
   background: var(--clr_primary);
+}
 #header_area .signin_signup a:hover {
   background: var(--clr_primary);
   color: var(--clr_white);
@@ -188,11 +190,11 @@ span.circular_bg:nth-child(4) {
   padding: 50px 60px 40px;
 }
 
-.recomended_books{
+.recomended_books {
   background: #f5dcc8;
 }
-.popular_books{
-  background: #D7EBFF;
+.popular_books {
+  background: #d7ebff;
 }
 .books_slider {
   display: flex;
@@ -211,7 +213,7 @@ span.circular_bg:nth-child(4) {
 /* ==== Our Servie Area ==== */
 .single_service {
   display: flex;
-gap: 10px;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
 }
