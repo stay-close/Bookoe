@@ -166,6 +166,37 @@ span.circular_bg:nth-child(4) {
 }
 /* ==== Banner Area ==== */
 
+/* ==== Our Servie Area ==== */
+.single_service {
+  display: flex;
+gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.single_service .service_icon {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0eeff;
+  padding: 15px;
+}
+.single_service .service_icon i {
+  font-size: 20px;
+  color: var(--clr_primary);
+}
+.single_service .service_details h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.single_service .service_details p {
+  font-size: 14px;
+  color: #aaaaaa;
+  padding: 10px 0;
+}
+
+/* ==== Our Servie Area ==== */
+
 /* ==== Featured Books Area ==== */
 #featured_books_area {
   background: #f2f0fe;
