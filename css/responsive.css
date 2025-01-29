@@ -20,4 +20,18 @@
     outline: none;
     box-shadow: 2px 2px 20px var(--clr_primary);
   }
+
+  /* Footer Area */
+  #footer_area .quick_links {
+    margin-left: 100px;
+  }
+  #footer_area .container div {
+    margin-bottom: 25px;
+  }
+  #footer_area .container div:last-child {
+    margin-bottom: 0;
+  }
+  ul.links li iframe {
+    width: 100%;
+  }
 }
