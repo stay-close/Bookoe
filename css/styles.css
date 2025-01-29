@@ -196,6 +196,42 @@ gap: 10px;
 }
 
 /* ==== Our Servie Area ==== */
+/* ==== Recomended Books Area ==== */
+
+#recomended_books_area .heading h2 {
+  font-size: 36px;
+}
+#recomended_books_area .heading p {
+  font-size: 14px;
+  color: var(--clr_heading);
+  padding: 20px 0 30px;
+  max-width: 90%;
+}
+.popular_books,
+.recomended_books {
+  border-radius: 14px;
+  padding: 50px 60px 40px;
+}
+
+.recomended_books{
+  background: #f5dcc8;
+}
+.popular_books{
+  background: #D7EBFF;
+}
+.books_slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.single_book picture {
+  max-width: 140px;
+  max-height: 195px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ==== Recomended Books Area ==== */
 
 /* ==== Featured Books Area ==== */
 #featured_books_area {
