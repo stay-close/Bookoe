@@ -233,6 +233,83 @@ gap: 10px;
 
 /* ==== Recomended Books Area ==== */
 
+/* ==== Special Offer Area ==== */
+
+#special_offers_area .section_heading p {
+  max-width: 50%;
+  margin: 40px auto 50px;
+}
+.single_offer{
+  border-radius: 14px;
+}
+.single_offer .book_img picture {
+  max-width: 510px;
+  max-height: 300px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.offer_details {
+  padding: 30px 20px;
+}
+.offer_details h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.offer_details ul {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+.offer_details ul li {
+  padding: 5px 10px;
+  background: #f0eeff;
+  color: var(--clr_primary);
+  border-radius: 14px;
+  font-size: 12px;
+  font-family: "Open Sans", serif;
+  font-weight: 500;
+}
+.offer_details p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.offer_details h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.add_to_cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add_to_cart a {
+  padding: 12px 25px;
+  border-radius: 14px;
+  background: var(--clr_primary);
+  color: var(--clr_white);
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid var(--clr_primary);
+}
+.add_to_cart p {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--clr_heading);
+  background: transparent;
+  border: none;
+}
+.add_to_cart p span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+.single_offer:hover {
+  box-shadow: 0 25px 33px 0 rgba(108, 93, 211, 0.25);
+}
+/* ==== Special Offer Area ==== */
+
 /* ==== Featured Books Area ==== */
 #featured_books_area {
   background: #f2f0fe;
