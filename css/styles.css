@@ -35,25 +35,17 @@ picture:hover img {
 #header_area {
   box-shadow: 0 1px 10px #e1e1e1;
 }
-#header_area .main_menu {
-  border: 2px solid #e1e1e1;
-  border-radius: 8px;
-  margin-right: 20px;
-}
 
 #header_area form input {
   border-radius: 0;
   outline: none;
-  border-left: 2px solid #e1e1e1;
-  border-right: 2px solid #e1e1e1;
-  border-top: none;
-  border-bottom: none;
+  border: 2px solid #e1e1e1;
 }
 #header_area form input::placeholder {
   color: #aaaaaa;
 }
 #header_area form a,
-#header_area .signin_signup a {
+#header_area .login_signup a {
   background-color: #f0eeff;
   color: var(--clr_primary);
   font-weight: 700;
@@ -65,12 +57,22 @@ picture:hover img {
   background: none;
   padding: 10px 20px;
 }
-#header_area .signin_signup a:hover {
+#header_area .login_signup a:hover {
   background: var(--clr_primary);
   color: var(--clr_white);
   box-shadow: 0 25px 33px rgba(108, 93, 211, 0.25);
 }
-
+#header_area ul.navbar-nav{
+  border-radius: 10px 0 0 10px;
+  border: 2px solid #e1e1e1;
+  padding: 4px 0;
+  border-right: none;
+}
+#header_area .submit_btn{
+  border-radius:0 10px 10px 0;
+  border: 2px solid #e1e1e1;
+  border-left: none;
+}
 /* ==== Header Area ==== */
 
 /* ==== Banner Area ==== */

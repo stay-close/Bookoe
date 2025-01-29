@@ -51,38 +51,29 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars-staggered"></i>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <div
-              class="main_menu d-flex justify-content-end w-75 flex-column flex-lg-row"
-            >
+           
               <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle d_menu px-3"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Menus
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Menu 01</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 02</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 03</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 04</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 05</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 06</a></li>
-                    <li><a class="dropdown-item" href="#">Menu 07</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="#" class="dropdown-item">Home</a></li>
+                    <li><a href="#" class="dropdown-item">Contact Us</a></li>
+                    <li><a href="#" class="dropdown-item">About Us</a></li>
+                    <li><a href="#" class="dropdown-item">Blog</a></li>
+                    <li><a href="#" class="dropdown-item">Gellary</a></li>
+                    <li><a href="#" class="dropdown-item">Join Us</a></li>
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex w-100" role="search">
+              <form class="d-flex w-50 me-3" role="search">
                 <input
                   class="form-control"
                   type="search"
@@ -93,14 +84,11 @@
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
               </form>
-            </div>
-            <!--/main_menu-->
-            <div class="signin_signup">
-              <a href="#" class="login me-2">Log In</a>
-              <a href="#" class="signup">
-                <i class="fa-regular fa-user me-2"></i> Sign Up</a
-              >
-            </div>
+           
+              <div class="login_signup d-flex">
+                <a href="#" class="me-2">Log In</a>
+                <a href="#"><i class="fa-solid fa-user me-3"></i>Sign Up</a>
+              </div>
           </div>
           <!--/navbar-collapse-->
         </div>
